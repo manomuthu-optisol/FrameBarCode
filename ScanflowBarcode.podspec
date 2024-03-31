@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ScanflowBarcode'
-  spec.version      = '2.1.3'
-  spec.license      = { :type => "Commercial", :file => 'LICENSE' }
-  spec.homepage     = 'https://scanflow.ai'
+  spec.version      = '2.1.4'
+  spec.license      = { :type => "Commercial", :file => 'LICENSE.txt' }
+  spec.homepage     = 'https://Scanflow.ai'
   spec.authors      = 'Scanflow'
   spec.summary      = 'This framework consist of detecting barcode and decoding process'
  spec.description      = <<-DESC
@@ -12,6 +12,7 @@ Scanflow is an AI scanner promises technological solutions to any enterprise tha
                        DESC
 
   spec.source       = {:git => 'https://github.com/manomuthu-optisol/FrameBarCode.git'}
+
   spec.vendored_frameworks = 'ScanflowBarcode.framework','TensorFlowLiteC.framework'
   spec.swift_version = '5.0'
   spec.ios.deployment_target  = '9.0'
